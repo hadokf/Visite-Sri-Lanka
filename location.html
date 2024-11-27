@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Sri Lanka</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(to bottom, #1e3c72, #2a5298);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 10px 0 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Destinations Section */
+    #destinations {
+      padding: 40px;
+    }
+
+    #destinations h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #1e3c72;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: filter 0.3s;
+    }
+
+    .card img:hover {
+      filter: blur(3px);
+      cursor: pointer;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card-content h3 {
+      font-size: 22px;
+      margin: 0 0 10px;
+    }
+
+    .card-content p {
+      font-size: 16px;
+      margin: 0;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background: #1e3c72;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Explore Sri Lanka</h1>
+    <nav>
+      <ul>
+        <li><a href="#destinations">Destinations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Destinations Section -->
+  <section id="destinations">
+    <h2>Explore the 25 Districts of Sri Lanka</h2>
+    <div class="cards">
+      <!-- Card 1 -->
+      <a href="colombo.html" class="card">
+        <img src="img/city/istockphoto-1181382649-612x612.jpg" alt="Colombo">
+        <div class="card-content">
+          <h3>Colombo</h3>
+          <p>The commercial capital with bustling markets and cultural landmarks.</p>
+        </div>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="gampaha.html" class="card">
+        <img src="img/gampaha.jpg" alt="Gampaha">
+        <div class="card-content">
+          <h3>Gampaha</h3>
+          <p>Famous for its beaches and historical sites.</p>
+        </div>
+      </a>
+
+      <!-- Card 3 -->
+      <a href="kandy.html" class="card">
+        <img src="img/kandy.jpg" alt="Kandy">
+        <div class="card-content">
+          <h3>Kandy</h3>
+          <p>Home to the Temple of the Tooth and stunning hill country views.</p>
+        </div>
+      </a>
+
+      <!-- Card 4 -->
+      <a href="matale.html" class="card">
+        <img src="img/matale.jpg" alt="Matale">
+        <div class="card-content">
+          <h3>Matale</h3>
+          <p>Known for its spice gardens and historical temples.</p>
+        </div>
+      </a>
+
+      <!-- Card 5 -->
+      <a href="nuwaraeliya.html" class="card">
+        <img src="img/nuwara-eliya.jpg" alt="Nuwara Eliya">
+        <div class="card-content">
+          <h3>Nuwara Eliya</h3>
+          <p>The "Little England" of Sri Lanka with scenic tea plantations.</p>
+        </div>
+      </a>
+
+      <!-- Card 6 -->
+      <a href="badulla.html" class="card">
+        <img src="img/badulla.jpg" alt="Badulla">
+        <div class="card-content">
+          <h3>Badulla</h3>
+          <p>Famous for waterfalls, mountains, and the Ravana Falls.</p>
+        </div>
+      </a>
+
+      <!-- Card 7 -->
+      <a href="monaragala.html" class="card">
+        <img src="img/monaragala.jpg" alt="Monaragala">
+        <div class="card-content">
+          <h3>Monaragala</h3>
+          <p>Known for its rich cultural heritage and wildlife reserves.</p>
+        </div>
+      </a>
+
+      <!-- Card 8 -->
+      <a href="anuradhapura.html" class="card">
+        <img src="img/anuradhapura.jpg" alt="Anuradhapura">
+        <div class="card-content">
+          <h3>Anuradhapura</h3>
+          <p>An ancient city with stunning historical ruins and religious sites.</p>
+        </div>
+      </a>
+
+
+      <!-- Card 11 -->
+      <a href="kegalle.html" class="card">
+        <img src="img/kegalle.jpg" alt="Kegalle">
+        <div class="card-content">
+          <h3>Kegalle</h3>
+          <p>Known for its natural beauty and the Elephant Orphanage in Pinnawala.</p>
+        </div>
+      </a>
+
+      <!-- Card 12 -->
+      <a href="rathnapura.html" class="card">
+        <img src="img/rathnapura.jpg" alt="Rathnapura">
+        <div class="card-content">
+          <h3>Rathnapura</h3>
+          <p>The city of gems, known for its gemstone mining.</p>
+        </div>
+      </a>
+
+      <!-- Card 13 -->
+      <a href="kurunegala.html" class="card">
+        <img src="img/kurunegala.jpg" alt="Kurunegala">
+        <div class="card-content">
+          <h3>Kurunegala</h3>
+          <p>Rich in history and famous for its large elephant statue.</p>
+        </div>
+      </a>
+
+      <!-- Card 14 -->
+      <a href="hambanthota.html" class="card">
+        <img src="img/hambantota.jpg" alt="Hambantota">
+        <div class="card-content">
+          <h3>Hambantota</h3>
+          <p>Known for its ports and proximity to wildlife sanctuaries.</p>
+        </div>
+      </a>
+      <!-- Card 15 -->
+<a href="galle.html" class="card">
+  <img src="img/galle.jpg" alt="Galle">
+  <div class="card-content">
+    <h3>Galle</h3>
+    <p>Famous for its colonial architecture and beautiful coastline.</p>
+  </div>
+</a>
+
+<!-- Card 16 -->
+<a href="matara.html" class="card">
+  <img src="img/matara.jpg" alt="Matara">
+  <div class="card-content">
+    <h3>Matara</h3>
+    <p>Known for its stunning beaches and the famous Wewurukannala Vihara Temple.</p>
+  </div>
+</a>
+
+<!-- Card 17 -->
+<a href="rathnapura.html" class="card">
+  <img src="img/ratnapura.jpg" alt="Ratnapura">
+  <div class="card-content">
+    <h3>Ratnapura</h3>
+    <p>Gem capital of Sri Lanka, with many gemstone markets and mines.</p>
+  </div>
+</a>
+
+<!-- Card 18 -->
+<a href="vaunia.html" class="card">
+  <img src="img/vavuniya.jpg" alt="Vavuniya">
+  <div class="card-content">
+    <h3>Vavuniya</h3>
+    <p>A hub for agriculture and a gateway to the northern region.</p>
+  </div>
+</a>
+
+<!-- Card 19 -->
+<a href="batticola.html" class="card">
+  <img src="img/batticaloa.jpg" alt="Batticaloa">
+  <div class="card-content">
+    <h3>Batticaloa</h3>
+    <p>Known for its beaches and the Batticaloa Fort.</p>
+  </div>
+</a>
+
+<!-- Card 20 -->
+<a href="mulathiv.html" class="card">
+  <img src="img/mullaitivu.jpg" alt="Mullaitivu">
+  <div class="card-content">
+    <h3>Mullaitivu</h3>
+    <p>Rich in history and natural beauty, with a focus on eco-tourism.</p>
+  </div>
+</a>
+
+<!-- Card 21 -->
+<a href="jaffna.html" class="card">
+  <img src="img/jaffna.jpg" alt="Jaffna">
+  <div class="card-content">
+    <h3>Jaffna</h3>
+    <p>Known for its rich Tamil heritage and historic sites like the Nallur Kandaswamy Temple.</p>
+  </div>
+</a>
+
+<!-- Card 22 -->
+<a href="kilinochchi.html" class="card">
+  <img src="img/kilinochchi.jpg" alt="Kilinochchi">
+  <div class="card-content">
+    <h3>Kilinochchi</h3>
+    <p>Famous for its tranquil landscapes and agricultural activities.</p>
+  </div>
+</a>
+
+<!-- Card 23 -->
+<a href="polonnaruwa.html" class="card">
+  <img src="img/polonnaruwa.jpg" alt="Polonnaruwa">
+  <div class="card-content">
+    <h3>Polonnaruwa</h3>
+    <p>Visit the ancient ruins of the capital city of Polonnaruwa.</p>
+  </div>
+
+
+<!-- Card 24 -->
+<a href="trinco.html" class="card">
+  <img src="img/trincomalee.jpg" alt="Trincomalee">
+  <div class="card-content">
+    <h3>Trincomalee</h3>
+    <p>Known for its beaches and the Koneswaram Temple.</p>
+  </div>
+</a>
+
+<!-- Card 25 -->
+<a href="monaragala.html" class="card">
+  <img src="img/moneragala.jpg" alt="Moneragala">
+  <div class="card-content">
+    <h3>Moneragala</h3>
+    <p>Known for its rich cultural heritage and wildlife reserves.</p>
+  </div>
+</a>

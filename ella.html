@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ella - Scenic Beauty of Sri Lanka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+        header {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+        .hero-images {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .hero-images img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+            position: absolute;
+        }
+        .hero-images img.active {
+            opacity: 1;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3.5em;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            text-align: center;
+            padding: 0 10px;
+        }
+        header p {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 1.2em;
+            font-weight: 300;
+            text-align: center;
+            padding: 0 15px;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        h2 {
+            color: #0a4d71;
+            font-size: 2.5em;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 1.5em;
+        }
+        .highlight {
+            color: #f68e1f;
+            font-weight: 600;
+        }
+        .cta-button {
+            background-color: #f68e1f;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #d07e1a;
+        }
+        footer {
+            background-color: #0a4d71;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Media Queries for Mobile Devices */
+        @media (max-width: 768px) {
+            header {
+                height: 300px;
+            }
+            header h1 {
+                font-size: 2.5em;
+            }
+            header p {
+                font-size: 1em;
+                top: 70%;
+            }
+            section {
+                padding: 40px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                height: 250px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 0.9em;
+                top: 75%;
+            }
+            section {
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="hero-images">
+            <img src="img/The+Common+Wanderer-9888.jpg" alt="Ella Image 1" class="active">
+            <img src="img/1732346130050.jpg" alt="Ella Image 2">
+            <img src="img/1732346114887.jpg" alt="Ella Image 3">
+            <img src="img/1732346148512.jpg" alt="Ella Image 4">
+        </div>
+        <h1>Ella - Scenic Beauty of Sri Lanka</h1>
+        <p>Explore the breathtaking landscapes and tranquil vibes of Sri Lanka’s hill country</p>
+    </header>
+
+    <section>
+        <div class="content">
+            <h2>Discover Ella</h2>
+            <p>Ella is a small town nestled in the heart of Sri Lanka's hill country, known for its stunning views, waterfalls, and hiking trails. Surrounded by lush greenery, Ella is the perfect escape from the coastal heat, offering cool temperatures and a peaceful atmosphere. The town has become one of the top tourist destinations in Sri Lanka, offering an ideal blend of natural beauty, adventure, and relaxation.</p>
+
+            <h2>Ella Rock</h2>
+            <p>One of Ella’s most famous attractions is Ella Rock, a scenic mountain that offers panoramic views of the surrounding valleys, tea plantations, and distant mountains. A challenging hike to the summit rewards visitors with awe-inspiring views, especially during the early morning hours when the mist rolls in over the mountains.</p>
+
+            <h2>Ravana Falls</h2>
+            <p>Ravana Falls is another iconic sight in Ella. With a height of 25 meters, it’s one of Sri Lanka’s most beautiful and easily accessible waterfalls. Legend has it that the falls were named after the mythological King Ravana, who is said to have kept Princess Sita imprisoned at this location.</p>
+
+            <h2>The Nine Arches Bridge</h2>
+            <p>The Nine Arches Bridge is an iconic railway bridge that connects Ella to the rest of the island’s railway network. This bridge, which spans 91 meters and is made of stone and brick, has become a symbol of the town. It’s especially popular among photographers who capture the train crossing the bridge, surrounded by the stunning hills.</p>
+
+            <h2>Ella Today</h2>
+            <p>Today, Ella is a popular destination for both nature lovers and adventure enthusiasts. Its cool climate, scenic views, and numerous hiking trails make it a perfect getaway for tourists seeking both relaxation and adventure. The town also offers a variety of accommodations, from guesthouses to boutique hotels, making it accessible for all kinds of travelers.</p>
+
+            <h2>Significance of Ella</h2>
+            <p>Known for its natural beauty, Ella plays an important role in Sri Lanka's tourism industry. The combination of cultural heritage, scenic landscapes, and the peaceful environment makes it a must-visit destination for anyone exploring Sri Lanka's hill country.</p>
+
+            <!-- Learn more link -->
+            <a href="https://en.m.wikipedia.org/wiki/Ella,_Sri_Lanka" class="cta-button" target="_blank">Learn More About Ella</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ella Tourism. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.hero-images img');
+        const totalImages = images.length;
+
+        function changeImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % totalImages;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeImage, 5000); // Change image every 5 seconds (slower)
+    </script>
+
+</body>
+</html>
